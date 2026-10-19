@@ -130,3 +130,5 @@ h1, h2, h3, .s-chip--row b, .s-board__price, .s-rating b, .s-reviews__num, .s-st
   .s-rating > span:last-child { flex-basis: 100%; }
 }
 .s-incl { grid-template-columns: 1fr; max-width: 640px; }
+
+.s-mono--logo { border-radius: 50%; object-fit: cover; color: inherit; box-shadow: 0 0 0 1px color-mix(in srgb, var(--c-accent) 35%, transparent); }
